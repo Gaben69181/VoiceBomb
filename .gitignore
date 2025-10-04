@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+.cache/
+
+# Face Detection specific
+dataset/
+WIDER_val/
+face_database.json
+runs/face_result/weights/epoch*.pt
+runs/face_result/weights/last.pt
+runs/face_result/*.png
+runs/face_result/*.jpg
+runs/face_result/predictions.json
+runs/face_result/results.csv
+runs/face_result/train_batch*.jpg
+runs/face_result/val_batch*.jpg
+
+# Keep only essential model files
+!yolov8n.pt
+!yolov8s.pt
+!runs/face_result/weights/best.pt

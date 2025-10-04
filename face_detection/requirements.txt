@@ -1,0 +1,6 @@
+ultralytics>=8.0.0
+deepface>=0.0.75
+opencv-python>=4.8.0
+numpy>=1.21.0
+tensorflow>=2.10.0  # Optional, for GPU support
+torch>=1.12.0       # Required by ultralytics
