@@ -76,19 +76,19 @@ Thumbs.db
 .cache/
 
 # Face Detection specific
-training/face_detection/dataset/
-training/face_detection/WIDER_val/
-training/face_detection/face_database.json
-training/face_detection/runs/face_result/weights/epoch*.pt
-training/face_detection/runs/face_result/weights/last.pt
-training/face_detection/runs/face_result/*.png
-training/face_detection/runs/face_result/*.jpg
-training/face_detection/runs/face_result/predictions.json
-training/face_detection/runs/face_result/results.csv
-training/face_detection/runs/face_result/train_batch*.jpg
-training/face_detection/runs/face_result/val_batch*.jpg
+dataset/
+WIDER_val/
+face_database.json
+runs/face_result/weights/epoch*.pt
+runs/face_result/weights/last.pt
+runs/face_result/*.png
+runs/face_result/*.jpg
+runs/face_result/predictions.json
+runs/face_result/results.csv
+runs/face_result/train_batch*.jpg
+runs/face_result/val_batch*.jpg
 
 # Keep only essential model files
-!training/face_detection/yolov8n.pt
-!training/face_detection/yolov8s.pt
-!training/face_detection/runs/face_result/weights/best.pt
+!yolov8n.pt
+!yolov8s.pt
+!runs/face_result/weights/best.pt
