@@ -1,0 +1,5 @@
+# Ignore the Vosk model folder
+vosk-model-small-en-us-0.15/
+
+# Ignore Python's cache files
+__pycache__/
